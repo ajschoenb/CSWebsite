@@ -8,15 +8,7 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
-
-		<style>
-			.nav-link {
-				margin: auto 10px;
-			}
-			.bg-orange {
-				background: #bf5700;
-			}
-		</style>
+        <link rel="stylesheet" href="style.css" />
 
 		<title>Adam Schoenberg - Home</title>
 	</head>
@@ -50,8 +42,51 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-6 justify-content-left">
-                    <ul>
+                <div class="col-7">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">Some of the code for these projects is not publicly available online. If you have questions about those, just send me an email and I'll do my best to answer promptly. I make no promises that I can answer all questions.</p>
+                        </div>
+                    </div>
+                    <div class="scroll">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Motor Datasheet</h5>
+                                <ul class="card-text">
+                                    <li>Designed for NASA JSC engineers to supersede an ineffective Excel database</li>
+                                    <li>Given a set of operating points (voltage, current, etc.), ranks various motors by efficiency</li>
+                                    <li>Provides simple interface for inserting, deleting, and editing motor entries</li>
+                                    <li>Utilizes a RESTful API written in Node.js, HTML, and jQuery</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    FRC Scouting Database
+                                    <a href="https://gitlab.com/ajschoenb/scouting2019" class="btn btn-orange" style="float: right;">Take Me</a>
+                                </h5>
+                                <ul class="card-text">
+                                    <li>Developed for the FIRST Robotics Competition to analyze other teams' performance</li>
+                                    <li>Fully-enabled database application - allows insertion, deletion, and data analysis</li>
+                                    <li>Displays custom aggregate datapoints, trendlines, and overall rankings for given metrics</li>
+                                    <li>RESTful API written with Node.js, HTML, MySQL, exported to MS Excel</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Music Writer</h5>
+                                <ul class="card-text">
+                                    <li>Uses a Markov chain to generate novel MIDI files from patterns found in existing songs</li>
+                                    <li>Only designed to handle solo piano music to maximize simplicity and functionality</li>
+                                    <li>Extension of a text writer application written for a class project</li>
+                                    <li>Implemented in Java, with the MIDI format used for imports and exports</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <ul>
                         <li>Some of the code for these projects is not publicly available online. If you have questions about those, just send me an email and I'll do my best to answer promptly. I make no promises that I can answer all questions.</li>
                         <li>
                             <a href="javascript:void(0);">Motor Datasheet</a>
@@ -80,7 +115,7 @@
                                 <li>Implemented in Java, with the MIDI format used for imports and exports</li>
                             </ul>
                         </li>
-                    </ul>
+                    </ul> -->
                 </div>
             </div>
         </main>

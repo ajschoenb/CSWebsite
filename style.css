@@ -1,0 +1,31 @@
+.nav-link {
+    margin: auto 10px;
+}
+.bg-orange {
+    background: #bf5700;
+}
+.btn-orange {
+    color: #fff;
+    background: #bf5700;
+    border-color: #bf5700;
+}
+.btn-orange:hover {
+    color: #fff;
+    background: #b44400;
+    border-color: #b43800;
+}
+.btn-orange:active {
+    color: #fff;
+    background: #b43800;
+    border-color: #b23800;
+}
+.btn-orange:focus {
+    color: #fff;
+    background: #b44400;
+    border-color: #b43800;
+    box-shadow: 0 0 0 0.2rem rgba(191, 87, 0, 0.5)
+}
+.scroll {
+    max-height: 60vh;
+    overflow-y: auto;
+}
